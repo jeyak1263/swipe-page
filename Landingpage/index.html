@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Swipe Pages</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<header class="top-header">
+  <div class="menu-icon">☰</div>
+
+  <div class="header-title">
+    Let’s Observe Storms
+  </div>
+
+  <div class="divider"></div>
+</header>
+
+<!-- SLIDER WRAPPER -->
+<div class="slider-container">
+
+    <!-- SLIDES -->
+    <div class="slides" id="slides">
+
+        <!-- PAGE 1 : COVER -->
+        <section class="page cover">
+            <img src="./asserts/image.png">
+            <div class="overlay">
+            </div>
+        </section>
+
+<!-- UNIT INTRO SECTION -->
+<section class="page unit">
+
+  <!-- BANNER -->
+  <div class="banner">
+    <img src="./asserts/Background Image.png" alt="Banner">
+    <div class="banner-text">
+      <span class="tag">ESSENTIAL QUESTION</span>
+      <h2>
+        What can we learn<br>
+        from observing<br>
+        <span>storms?</span>
+      </h2>
+    </div>
+  </div>
+
+  <!-- CARDS -->
+  <div class="cards">
+    <div class="card">
+      <img src="./asserts/Frame 5.png" alt="">
+      <p>We experience changes in weather conditions every day.</p>
+    </div>
+
+    <div class="card">
+      <img src="./asserts/Frame 6.png" alt="">
+      <p>Meteorology is the study of Earth’s atmosphere and weather patterns.</p>
+    </div>
+
+    <div class="card">
+      <img src="./asserts/Frame 7.png" alt="">
+      <p>By observing weather, we can predict and prepare for severe storms.</p>
+    </div>
+  </div>
+
+  <!-- ACCORDION AREA -->
+  <div class="accordion-section container mt-5">
+    <div class="row g-4">
+
+      <!-- LEFT LIST -->
+      <div class="col-md-4">
+        <div class="left-list">
+          <div class="left-item">Knowledge Terms <span>⌄</span></div>
+          <div class="left-item">Vocabulary Terms <span>⌄</span></div>
+        </div>
+      </div>
+
+      <!-- RIGHT ACCORDION -->
+      <div class="col-md-8">
+        <div class="accordion custom-accordion" id="unitAccordion">
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#q1">
+                Write what you already know about the Essential Question.
+              </button>
+            </h2>
+            <div id="q1" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                Write your understanding here....
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item mt-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#q2">
+                Write down some questions you have.
+              </button>
+            </h2>
+            <div id="q2" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                Write your questions here...
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+        <!-- PAGE 3 : SAMPLE NEXT PAGE -->
+        
+<!-- PAGE 3 -->
+<section class="page choose-topic">
+
+  <div class="section-header">
+    <span class="badge">INDEPENDENT READING</span>
+    <h2>Choose a Topic!</h2>
+  </div>
+
+  <div class="topic-grid">
+
+    <!-- CARD 1 -->
+    <div class="topic-card">
+      <label class="main-container-checkbox-1">
+        <input type="checkbox">
+        <h3>Surviving Storms:<br>Firsthand Accounts</h3>
+      </label>
+
+      <img src="./asserts/surviving stroms.png" alt="Surviving Storms">
+
+      <p class="question">
+        What is it like living through a severe tornado?
+      </p>
+
+      <div class="covers">
+        <div class="mini-cover">COVERS</div>
+        <div class="mini-cover">COVERS</div>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="topic-card">
+      <label class="main-container-checkbox-1">
+        <input type="checkbox">
+        <h3>Big Storms<br>Throughout History</h3>
+      </label>
+
+      <img src="./asserts/big stroms.png" alt="Big Storms">
+
+      <p class="question">
+        What were the worst tornadoes, hurricanes, and blizzards of all time?
+      </p>
+
+      <div class="covers">
+        <div class="mini-cover">COVERS</div>
+        <div class="mini-cover">COVERS</div>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="topic-card">
+
+      <div class="main-container-checkbox-2">
+        <input type="checkbox">
+        <h3>Storm Chasers</h3>
+      </div>
+
+      <img src="./asserts/strom chasers.png" alt="Storm Chasers">
+
+      <p class="question">
+        What is it like to drive into the eye of a storm?
+      </p>
+
+      <div class="covers">
+        <div class="mini-cover">COVERS</div>
+        <div class="mini-cover">COVERS</div>
+      </div>
+    
+    </div>
+
+  </div>
+</section>
+
+<!-- PAGE 4 -->
+<section class="page reading-log">
+
+  <div class="container my-5">
+
+    <div class="d-flex align-items-center mb-3">
+      <span class="badge bg-warning text-dark me-2">INDEPENDENT READING</span>
+      <h4 class="fw-bold mb-0">
+        Read each day and record facts you’ve learned.
+      </h4>
+    </div>
+
+    <div class="table-responsive">
+      <table class="table table-bordered align-middle text-center">
+        <thead class="table-light">
+          <tr>
+            <th class="w-50 text-start">My Reading</th>
+            <th class="w-50 text-start">My Fascinating Facts</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="height:120px"><td></td><td></td></tr>
+          <tr style="height:120px"><td></td><td></td></tr>
+          <tr style="height:120px"><td></td><td></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="d-flex gap-2 mt-3">
+      <button class="add-btn">
+        <i class="bi bi-plus-circle me-1"></i> Add
+      </button>
+      <button class="remove-btn">
+        <i class="bi bi-dash-circle me-1"></i> Remove
+      </button>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- PAGE 5 -->
+<section class="page reading-section">
+
+  <div class="reading-header">
+    <span class="reading-badge">INDEPENDENT READING</span>
+    <h2>Record what you have learned from others.</h2>
+  </div>
+
+  <div class="reading-table">
+
+    <div class="table-head">
+      <div>Surviving Storms:<br><span>Firsthand Accounts</span></div>
+      <div>Big Storms Throughout<br><span>History</span></div>
+      <div>Storm Chasers</div>
+    </div>
+
+    <div class="table-body">
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+    </div>
+    
+  </div>
+   <div class="d-flex gap-2 mt-3">
+      <button class="add-btn">
+        <i class="bi bi-plus-circle me-1"></i> Add
+      </button>
+      <button class="remove-btn">
+        <i class="bi bi-dash-circle me-1"></i> Remove
+      </button>
+    </div>
+
+</section>
+<!-- PAGE 6 : BEFORE & AFTER THE STORM -->
+<section class="page storm-section py-5">
+  <div class="container">
+
+    <!-- HEADING -->
+    <div class="row mb-5">
+      <div class="col-12 d-flex align-items-center gap-3">
+        <span class="badge bg-warning text-dark">APPRENTICE TEXT 1</span>
+        <img src="./asserts/Before and after the storm.png" alt="" class="section-heading mb-0">
+        <img src="./asserts/Frame 1984079008.png" alt="" class="section-heading mb-0">
+      </div>
+    </div>
+
+    <!-- BLOCK 1 -->
+    <div class="row align-items-start mb-5">
+
+      <!-- LEFT TEXT -->
+      <div class="col-md-6">
+        <p class="numbered">
+          <span>1</span>
+           Meteorologists are weather
+scientists. They observe weather
+patterns. They use tools to
+measure temperature, wind
+speed, and other conditions. They
+use these observations to predict,
+or forecast, weather. They can
+also use what they see to predict
+severe storms.
+        </p>
+
+        <p class="ms-4">
+                
+        </p>
+      </div>
+
+      <!-- RIGHT IMAGE + CALLOUT -->
+      <div class="col-md-6">
+        <img src="./asserts/track a storm.png"
+             class="img-fluid rounded mb-3"
+             alt="Track a storm">
+
+        <p class="img-caption">
+          These meteorologists use computers to track a storm.
+        </p>
+
+        <div class="callout-box">
+          📘 <em>What does a meteorologist do?</em>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- BLOCK 2 -->
+    <div class="row align-items-start">
+
+      <!-- LEFT TEXT -->
+      <div class="col-md-6">
+        <p class="numbered">
+          <span>2</span>
+            Meteorologists are weather
+scientists. They observe weather
+patterns. They use tools to
+measure temperature, wind
+speed, and other conditions. They
+use these observations to predict,
+or forecast, weather. They can
+also use what they see to predict
+severe storms.
+        </p>
+
+        <p class="ms-4">
+                  
+        </p>
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      <div class="col-md-6">
+        <img src="./asserts/wether.png"
+             class="img-fluid rounded"
+             alt="Severe storm">
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<!-- PAGE 7 : BUILD AUTOMATICITY -->
+<section class="page build-automaticity-section">
+
+  <!-- HEADER -->
+  <div class="ba-header">
+    <span class="ba-tag">BUILD FLUENCY</span>
+    <h2>Build Automaticity</h2>
+
+    <ol class="ba-instructions">
+      <li>Underline the first closed syllable in each word.</li>
+      <li>Pronounce each word with your teacher.</li>
+      <li>Practice reading the words on your own.</li>
+      <li>
+        When you are ready, have a partner time you for one minute as you read
+        the words. Keep practicing to improve your speed.
+      </li>
+    </ol>
+  </div>
+
+  <!-- WORD LIST BAR -->
+  <div class="wordlist-bar">
+    <span>Word List</span>
+    <i class="bi bi-chevron-down"></i>
+  </div>
+
+  <!-- TABLE -->
+  <div class="table-responsive mt-3">
+    <table class="ba-table">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Words per Minute</th>
+          <th>Date</th>
+          <th>Partner</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="label">Timed Reading 1</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="label">Timed Reading 2</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="label">Timed Reading 3</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</section>
+<!-- LAST PAGE : SEVERE STORMS – TORNADOES -->
+<section class="page severe-storms-section">
+
+  <!-- TOP BANNER -->
+  <div class="ss-banner">
+    <span class="ss-tag">BUILD FLUENCY</span>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="ss-content">
+
+    <!-- LEFT TEXT -->
+    <div class="ss-text">
+      <h2>Severe Storms: <span>Tornadoes</span></h2>
+
+      <p>
+       The weather can change from one minute to the next. At this very
+moment on Earth there are roughly two thousand thunderstorms
+raining down around the world.
+      </p>
+
+      <p>Thunderstorms form when warm, moist air rises and meets up
+with colder air in Earth’s atmosphere. As the warm air cools, the
+moisture turns into small water droplets, called rain. The cool air
+starts to fall. Then, it warms up and rises again. This cycle of
+rising is called a storm cell. It causes thunderstorms to form. These
+storms are known for their heavy rain, wind, lightning, and thunder!
+      </p>
+
+      <p>
+        Sometimes, if the conditions are right, these storms can make
+tornadoes. A tornado is a fast-spinning column of air. It forms out
+of a thunderstorm. If the warm rising air in
+a storm cell collides with fast-moving winds,
+then a tornado funnel cloud may form.
+      </p>
+
+      <p>
+        People cannot stop tornadoes from forming. But they can learn to predict them. They can warn one another when they are coming. They can also prepare for them to stay safe.
+      </p>
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="ss-image">
+      <img src="./asserts/1- Natutal Wonder.png" alt="Tornado image">
+    </div>
+
+  </div>
+
+</section>
+
+
+    </div>
+
+    <!-- NAV BUTTONS -->
+    <button class="nav prev" onclick="prevSlide()">❮</button>
+    <button class="nav next" onclick="nextSlide()">❯</button>
+
+</div>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
